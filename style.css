@@ -1,0 +1,188 @@
+body {
+  background: #131b21;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+svg#flower-frame {
+  height: 90vh;
+  width: 100%;
+}
+
+#Footer_group_1_,
+[id^="PinkFlowerGroup"],
+[id^="BaseGroup"] path,
+[id^="LeafGroup"] path,
+path[id^="Stroke"],
+g[id^="BudGroup"] g[id^="BudGroup"] g[id^="Bud"],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^="Dots"],
+[id^="Flourish"] {
+  visibility: hidden;
+}
+.intro-text {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0;
+  font-family: "Georgia", serif;
+}
+
+.gift-button {
+  display: block;
+  margin: 0 auto 40px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: #68a357;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease;
+}
+
+.gift-button:hover {
+  background-color: #4e7e41;
+}
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.intro-text {
+  color: #e0f2e9;
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0;
+  font-family: "Georgia", serif;
+}
+
+.gift-button {
+  display: block;
+  margin: 0 auto 40px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: #68a357;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease;
+}
+
+.gift-button:hover {
+  background-color: #4e7e41;
+}
+
+/* Tulisan dalam bunga */
+/* #flower-message {
+  font-family: "Great Vibes", cursive;
+  fill: #eafaf1;
+  text-shadow: 0px 0px 6px #3b664b;
+  letter-spacing: 1px;
+} */
+#flower-text {
+  display: none;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+  color: #eafaf1;
+  font-family: "Great Vibes", cursive;
+  text-shadow: 0px 0px 8px #3b664b;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#flower-message {
+  visibility: hidden;
+  font-family: "Great Vibes", cursive;
+  fill: #eafaf1;
+  text-shadow: 1px 1px 4px #3b664b;
+  pointer-events: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&display=swap");
+
+/* 🌿 Background Bertema Alam */
+body {
+  background: linear-gradient(to bottom right, #dbe8d8, #bce3c5);
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* 🌼 Container utama */
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 🍃 Teks pembuka */
+.intro-text {
+  color: #355e3b;
+  font-size: 28px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: "Great Vibes", cursive;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+/* 🎁 Tombol kado */
+.gift-button {
+  padding: 15px 30px;
+  font-size: 36px;
+  background-color: #78a678;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease;
+  animation: bounce 2s infinite;
+}
+
+.gift-button:hover {
+  background-color: #5e8f5e;
+  transform: scale(1.05);
+}
+
+/* 🌸 Animasi teks masuk */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ✨ Animasi bounce tombol */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
